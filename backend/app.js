@@ -6,6 +6,25 @@ const port=3000;// port to listen on
 
 const users=[];// create a users array ya3ni a list of users
 
+<<<<<<< HEAD
+app.user
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+app.post("/login", async (req, res) => {
+=======
 
 app.use(express.json());// middleware to parse json data ya3ni to convert json data to js object
 
@@ -31,3 +50,4 @@ app.post('/register',async(req,res)=>{
 app.listen(port,()=>{
     console.log(`Server is running on port ${port}`)
 });// listen on port 3000
+>>>>>>> f458a0e9e5fb7302f260fab10d39f33a132e0056
