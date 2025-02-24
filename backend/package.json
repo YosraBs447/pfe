@@ -1,10 +1,19 @@
 {
   "name": "backend",
   "version": "1.0.0",
+<<<<<<< HEAD
   "main": "index.js",
   "type": "module",
   "scripts": {
     "start": "nodemon app.js"
+=======
+  "main": "app.js",
+  "type":"module",
+  "scripts": {
+    "start": "nodemon app.js"
+    
+   
+>>>>>>> f458a0e9e5fb7302f260fab10d39f33a132e0056
   },
   "author": "",
   "license": "ISC",
