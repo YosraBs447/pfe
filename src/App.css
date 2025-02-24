@@ -1,0 +1,203 @@
+/* Style général du conteneur pour centrer les éléments */
+.container {
+  width: 100%;
+  max-width: 400px; /* Limite la largeur du formulaire */
+  margin: 50px auto; /* Centre le formulaire verticalement et horizontalement */
+  padding: 20px; /* Ajoute de l'espace intérieur */
+  border-radius: 8px; /* Bord arrondi */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre légère */
+  background-color: #f9f9f9; /* Couleur de fond claire */
+}
+
+/* Style des champs de saisie (inputs) et des boutons */
+input,
+button {
+  padding: 12px;
+  width: 100%;
+  border-radius: 4px; /* Bord arrondi pour inputs et boutons */
+  border: 1px solid #ccc; /* Bordure grise claire */
+  box-sizing: border-box; /* Inclut padding et bordure dans les dimensions */
+}
+
+/* Style spécifique des boutons */
+button {
+  background-color: #007bff; /* Couleur bleue pour les boutons */
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Transition douce pour les couleurs */
+}
+
+/* Effet au survol du bouton */
+button:hover {
+  background-color: #0056b3; /* Couleur bleue foncée lors du survol */
+}
+
+/* Style du lien pour "Mot de passe oublié" */
+.forgot-password {
+  font-size: 14px; /* Taille de police plus grande */
+  color: #007bff; /* Couleur bleue */
+  text-decoration: none; /* Pas de soulignement */
+  margin-top: 10px;
+}
+
+/* Ajouter un effet visuel lors du survol du lien */
+.forgot-password:hover {
+  text-decoration: underline; /* Souligner lors du survol */
+}
+
+/* Formulaire d'inscription */
+.signup-container {
+  margin-top: 30px; /* Espacement supplémentaire pour l'inscription */
+}
+
+/* Pour les labels */
+label {
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 8px;
+  display: block;
+  font-size: 14px;
+}
+
+/* Cochez les cases pour le technicien / administrateur */
+.checkbox-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+/* Style des messages d'erreur ou des alertes */
+.error-message {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+body {
+  background-image: url("c:\Users\ASUS\Downloads\photo leoni.jpg"); /* Remplace l'URL de l'image par le chemin réel de ton image */
+  background-size: cover; /* Pour que l'image prenne toute la taille de l'écran */
+  background-position: center; /* Centrer l'image */
+  background-attachment: fixed; /* Garder l'image fixe lors du défilement */
+}
+/* Bouton S'inscrire */
+button.signup {
+  background-color: green; /* Vert */
+  color: white;
+}
+
+button.signup:hover {
+  background-color: darkgreen;
+}
+
+/* Bouton Se connecter */
+button.login {
+  background-color: blue; /* Bleu */
+  color: white;
+}
+
+button.login:hover {
+  background-color: darkblue;
+}
+button {
+  margin-bottom: 10px; /* Ajoute de l'espace entre les boutons */
+}
+.radio-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.radio-container label {
+  font-size: 14px;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+}
+button {
+  margin-bottom: 10px; /* Ajoute de l'espace entre les boutons */
+}
+
+
+
+
+
+
+
+
+/* Arrière-plan de la page */
+body {
+  background-image: url('photo leoni.jpg'); /* Remplace 'ton_image.jpg' par le chemin de ton image */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+}
+
+/* Container pour le formulaire */
+.container {
+  width: 300px;
+  margin: 50px auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: rgba(255, 255, 255, 0.8); /* Fond légèrement transparent */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Style des champs input et des boutons */
+input, button {
+  padding: 10px;
+  width: 100%;
+  margin: 10px 0; /* Ajoute de l'espacement entre les éléments */
+  border-radius: 4px;
+}
+
+/* Bouton "S'inscrire" en vert */
+button.signup {
+  background-color: rgb(35, 242, 35);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Bouton "Se connecter" en bleu */
+button.login {
+  background-color: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Effet au survol des boutons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Style des labels des boutons radio */
+.radio-container {
+  display: flex;
+  justify-content: space-evenly; /* Espacement équitable entre les éléments */
+  margin: 10px 0;
+}
+
+.radio-container label {
+  font-size: 16px;
+}
+
+.forgot-password {
+  font-size: 12px;
+}
+
+/* Espacement spécifique pour la section de mot de passe oublié */
+.forgot-password a {
+  color: #007bff;
+  text-decoration: none;
+}
+.forgot-password a:hover {
+  text-decoration: underline;
+}
